@@ -3,12 +3,6 @@ import Script from 'next/script'
 import { ContactSection } from '@/components/contact-section'
 import { HeroSection } from '@/components/hero-section'
 import { ServiceCards } from '@/components/service-cards'
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Inicio',
-  description: 'Psicólogo clínico en Madrid. Atención presencial y online. Especializado en terapia individual y tratamiento de diversos trastornos psicológicos.',
-}
 
 export default function Home() {
   return (
@@ -19,7 +13,7 @@ export default function Home() {
           <div className="flex-1 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-700 rounded-2xl transform rotate-3"></div>
             <Image
-              src="/alvaropro.webp"
+              src="/profile-image.jpg"
               alt="Álvaro Magdaleno - Psicólogo en consulta"
               width={500}
               height={600}
@@ -33,7 +27,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-teal-50/30 to-blue-50/30 py-20">
         <div className="container">
           <blockquote className="text-2xl md:text-3xl lg:text-4xl text-center italic max-w-4xl mx-auto text-gray-700 font-light">
-            "La psicoterapia es un aclararse mediante la ayuda de otro para que la vida marche bien"
+            &ldquo;La psicoterapia es un aclararse mediante la ayuda de otro para que la vida marche bien&rdquo;
           </blockquote>
         </div>
       </section>
@@ -51,7 +45,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "Álvaro Magdaleno - Psicólogo Clínico",
-          "image": "/alvaropro.webp",
+          "image": "https://alvaromagdaleno.es/profile-image.jpg",
           "url": "https://alvaromagdaleno.es",
           "telephone": "+34665826392",
           "address": {
@@ -79,7 +73,8 @@ export default function Home() {
             "closes": "20:00"
           },
           "sameAs": [
-            "https://www.instagram.com/alvaromagdalenof/"
+            "https://www.linkedin.com/in/alvaromagdaleno/",
+            "https://www.instagram.com/alvaromagdaleno_psicologo/"
           ]
         })}
       </Script>

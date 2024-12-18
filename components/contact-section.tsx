@@ -1,7 +1,7 @@
 import React from 'react'
 import { MapPin, Mail, Phone } from 'lucide-react'
 
-export const ContactSection = React.forwardRef<HTMLDivElement, {}>(
+export const ContactSection = React.forwardRef<HTMLDivElement>(
 (props, ref) => {
   return (
     <section ref={ref} id="contact-section" className="py-12 bg-muted/50">
@@ -22,7 +22,12 @@ export const ContactSection = React.forwardRef<HTMLDivElement, {}>(
             </div>
             <div className="flex items-center gap-3 group">
               <Phone className="h-5 w-5 text-primary transition-transform group-hover:scale-110" />
-              <p>665826392</p>
+              <a 
+                href="tel:665826392" 
+                className="hover:text-primary transition-colors"
+              >
+                665826392
+              </a>
             </div>
             <div className="flex items-center gap-3 group">
               <MapPin className="h-5 w-5 text-primary transition-transform group-hover:scale-110" />
@@ -44,8 +49,7 @@ export const ContactSection = React.forwardRef<HTMLDivElement, {}>(
       </div>
     </section>
   )
-}
-)
+})
 
 ContactSection.displayName = 'ContactSection'
 

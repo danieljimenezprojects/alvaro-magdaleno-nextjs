@@ -2,12 +2,9 @@
 
 import Link from "next/link"
 import { useCallback } from "react"
-import { usePathname } from 'next/navigation'
 import { MobileMenu } from './mobile-menu'
 
 export function Header() {
-  const pathname = usePathname()
-
   const scrollToContact = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
     const contactSection = document.getElementById('contact-section')

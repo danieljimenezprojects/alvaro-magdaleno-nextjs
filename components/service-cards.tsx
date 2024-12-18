@@ -14,7 +14,7 @@ export function ServiceCards() {
           <UserCircle className="w-12 h-12 text-primary mb-4 relative z-10" />
           <h2 className="text-2xl font-bold mb-4 relative z-10">Sobre mí</h2>
           <p className="text-muted-foreground mb-6 flex-grow relative z-10">
-           Uno de los aspectos más importantes para mi a lo largo de mi trayectoria es darle prioridad a la psicoterapia y supervisión propias, pretendiendo así garantizar que la relación terapéutica que mantengo con quien solicita ayuda sea lo más honesta posible.
+            Soy psicólogo clínico especializado en terapia individual. Mi enfoque se centra en proporcionar un espacio seguro y profesional para el desarrollo personal.
           </p>
           <AnimatedButton variant="gradient" asChild>
             <Link href="/sobre-mi" className="relative z-10 inline-block w-full">Conocer más</Link>
@@ -27,7 +27,7 @@ export function ServiceCards() {
           <Brain className="w-12 h-12 text-primary mb-4 relative z-10" />
           <h2 className="text-2xl font-bold mb-4 relative z-10">Psicoterapia</h2>
           <p className="text-muted-foreground mb-6 flex-grow relative z-10">
-            La forma en la que trabajo consiste en conversar desde un lugar distinto, algo poco habitual en nuestra vida cotidiana y, mediante una relación de confianza, comprender mejor aquello que te pasa y cómo solucionarlo.
+            Ofrezco un servicio profesional y personalizado, adaptado a las necesidades específicas de cada persona.
           </p>
           <AnimatedButton variant="gradient" asChild>
             <Link href="/psicoterapia" className="relative z-10 inline-block w-full">Ver servicios</Link>
