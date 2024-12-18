@@ -50,15 +50,15 @@ export default function Home() {
           "telephone": "+34665826392",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "C/ La Princesa 25 - Edificio Hexágono - Planta 2. Oficina 2",
+            "streetAddress": "C/ Evaristo San Miguel 7 So. B. (28008, Madrid)",
             "addressLocality": "Madrid",
             "postalCode": "28008",
             "addressCountry": "ES"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 40.427370,
-            "longitude": -3.714125
+            "latitude": 40.4232007,
+            "longitude": -3.7138489
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
