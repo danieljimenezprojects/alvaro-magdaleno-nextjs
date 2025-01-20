@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Psicólogo clínico en Madrid. Atención presencial y online.',
     images: [
       {
-        url: 'alvaropro.webp',
+        url: '/alvaropro.webp',
         width: 1200,
         height: 630,
         alt: 'Álvaro Magdaleno - Psicólogo Clínico',

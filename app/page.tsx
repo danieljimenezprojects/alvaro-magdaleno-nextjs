@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex-1 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-700 rounded-2xl transform rotate-3"></div>
             <Image
-              src="alvaropro.webp"
+              src="/alvaropro.webp"
               alt="Álvaro Magdaleno - Psicólogo en consulta"
               width={500}
               height={600}
@@ -45,7 +45,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "Álvaro Magdaleno - Psicólogo Clínico",
-          "image": "alvaropro.webp",
+          "image": "/alvaropro.webp",
           "url": "https://alvaromagdaleno.es",
           "telephone": "+34665826392",
           "address": {
