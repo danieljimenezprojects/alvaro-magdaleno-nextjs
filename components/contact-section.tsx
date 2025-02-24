@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Mail, Phone } from 'lucide-react'
+import { MapPin, Mail, Phone, Instagram } from 'lucide-react'
 
 export const ContactSection = React.forwardRef<HTMLDivElement>(
 (props, ref) => {
@@ -28,6 +28,15 @@ export const ContactSection = React.forwardRef<HTMLDivElement>(
                 className="hover:text-primary transition-colors"
               >
                 665826392
+              </a>
+            </div>
+            <div className="flex items-center gap-3 group">
+              <Instagram className="h-5 w-5 text-primary transition-transform group-hover:scale-110" />
+              <a 
+                href="https://www.instagram.com/alvaromagdalenof/" 
+                className="hover:text-primary transition-colors"
+              >
+                @alvaromagdalenof
               </a>
             </div>
             <div className="flex items-center gap-3 group">
