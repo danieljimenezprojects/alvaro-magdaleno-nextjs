@@ -29,6 +29,7 @@ export function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Email: amagdalenoflorez@gmail.com</p>
               <p>Teléfono: 665 826 392</p>
+              <p>Instagram: @alvaromagdalenof</p>
             </div>
           </div>
         </div>
